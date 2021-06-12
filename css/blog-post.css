@@ -11,11 +11,22 @@ body {
 }
 
 header {
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-weight: bolder;
-  font-size: 30px;
+  font-size: 20px;
   padding: 20px;
   text-transform: uppercase;
+}
+
+.header-button{
+  padding: 12px 6px;
+  background-color:#09186f;
+  outline: none;
+  border: none;
+  color: white;
+  border-radius: 5px;
 }
 
 .blog-page {
@@ -95,6 +106,18 @@ ul {
   
   .icons {
     margin-left: 10px;
+  }
+
+  .Avatar{
+    vertical-align: bottom;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+  }
+
+  .author-about{
+    font-size: 18px;
+    font-weight: bold;
   }
 
 @media screen and (max-width: 900px) {

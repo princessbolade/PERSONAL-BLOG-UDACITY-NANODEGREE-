@@ -1,0 +1,21 @@
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .nav-list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .nav-sublist {
+    margin-left: 20px;
+  }
+  
+  .nav-sublist:hover {
+    color: #8cc74d;
+  }

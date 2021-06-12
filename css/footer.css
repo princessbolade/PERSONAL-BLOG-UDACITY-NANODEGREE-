@@ -1,0 +1,17 @@
+.landing-footer {
+    width: 100%;
+    margin-top: 100px;
+    background-color: #8e84d0;
+    color: white;
+  }
+  
+  .footer-header {
+    text-align: center;
+  }
+  
+  .footer-icon {
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }

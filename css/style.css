@@ -6,7 +6,6 @@ body {
   margin: 0;
   min-height: 100vh;
   width: 100vw;
-  overflow-x: hidden;
 }
 
 .container {
@@ -49,7 +48,7 @@ body {
 }
 
 .image-grid {
-  background-image: url(Images/food-grid.jpg);
+  background-image: url(../Images/food-grid.jpg);
   background-position: center;
   background-size: cover;
   border-radius: 20px 0 0 20px;
@@ -174,7 +173,7 @@ a {
 }
 
 .news-letter-image {
-  background-image: url(Images/Avocado.jpg);
+  background-image: url(../Images/Avocado.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
